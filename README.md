@@ -61,6 +61,6 @@ This project is [MIT](https://github.com/Pterobyte/custom-mail-signatures/blob/m
 
 * [ ] make install command for mac
 * [ ] non-tech install directions
-* [ ] Cloudinary more icons (include in project somewhere)
 * [ ] Command to replace all my info with user's info
 * [ ] Windows support
+* [ ] Bash script to prompt user to input user info, save to config, then use in making .signature files
