@@ -22,7 +22,8 @@ make all
 ## Usage
 
 ```sh
-(MacOS) Move .signature files to your signature directory at __
+(MacOS) Move .signature files to your signature directory at ~/Library/Mail/V6/MailData/Signatures/
+Get Info -> check "locked"
 ```
 
 ## Run tests

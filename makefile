@@ -1,11 +1,17 @@
 #!/usr/bin/make
 
-.PHONY: work personal
+.PHONY: work personal all
+
+.DEFAULT_GOAL := all
 
 work:
-	cp src/content-heading.html dist/work.signature
-	cat src/work.html >> dist/work.signature
+	cp src/content-heading.html dist/work.mailsignature
+	cat src/work.html >> dist/work.mailsignature
 
 personal:
-	cp src/content-heading.html dist/personal.signature
-	cat src/personal.html >> dist/personal.signature
+	cp src/content-heading.html dist/personal.mailsignature
+	cat src/personal.html >> dist/personal.mailsignature
+
+all:
+	make work
+	make personal
