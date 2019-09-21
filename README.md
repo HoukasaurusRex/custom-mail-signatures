@@ -13,24 +13,17 @@
 
 ### 🏠 [Homepage](pterobyte.github.io/custom-mail-signatures)
 
-## Install
+## Make Mailsignature Files from HTML
 
 ```sh
 make all
 ```
 
-## Usage
+## Install on Mac
 
-```sh
 (MacOS) Move .signature files to your signature directory at ~/Library/Mail/V6/MailData/Signatures/
+Copy .mailsignature contents into directory
 Get Info -> check "locked"
-```
-
-## Run tests
-
-```sh
-npm run test
-```
 
 ## Author
 
