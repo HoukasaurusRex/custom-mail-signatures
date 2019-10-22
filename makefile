@@ -14,6 +14,11 @@ personal:
 	cat src/styles.html >> dist/personal.mailsignature
 	cat src/personal.html >> dist/personal.mailsignature
 
+alvaro:
+	cp src/styles.html dist/alvaro.html
+	cat src/alvaro.html >> dist/alvaro.html
+
 all:
 	make work
 	make personal
+	make alvaro
