@@ -19,7 +19,13 @@ alvaro:
 	cat src/alvaro.html >> dist/alvaro.html
 	cat src/interpretation-animation.html >> dist/alvaro.html
 
+jonas:
+	cp src/content-heading.html dist/jonas.html
+	cat src/styles.html >> dist/jonas.html
+	cat src/jonas.html >> dist/jonas.html
+
 all:
 	make work
 	make personal
 	make alvaro
+	make jonas
